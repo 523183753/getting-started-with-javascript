@@ -4,9 +4,9 @@ function callback() {
 }
 
 // 定义函数run，run接收一个函数类型的参数，当执行完动作后，调用该函数。
-function run(2b) {
+function run(cb) {
   console.log('🏃🏃🏃🏃🏃');
-  2b();
+  cb();
 }
 
 // 调用函数run，并把函数callback当参数传过去
